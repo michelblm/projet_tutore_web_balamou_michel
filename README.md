@@ -14,6 +14,8 @@
 
 Vous avez créé un projet GIT privé sur Github accessible au formateur nommé "projet_tutore_(api ou web)_nom_prenom"(même si le projet est privé, les user/mdp d'open cruise ne doivent jamais apparaitre sous github)Tous les documents sont au format markdown dans un répertoire doc (sauf ce README.md à la racine)Les tests automatisés seront dans un répertoire tests
 
+listes
+
 - [CONCEPTION.md](doc/CONCEPTION.md)
   - Identifier des tests (le volume est à votre convenance)
   - Détailler brièvement ces tests (sans le détail step par step)
