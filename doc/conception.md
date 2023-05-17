@@ -1,4 +1,4 @@
-<img src="sogeti.png" width="15%" height="15%">
+<img src="SOGETI.png" width="15%" height="15%">
 
 # Les tests WEB avec Cypress sur Open Cruise
 
