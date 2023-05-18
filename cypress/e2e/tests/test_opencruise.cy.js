@@ -12,7 +12,7 @@ describe("Open_Cruise", () => {
         // SE CONNECTER
         const connexionStep = new ConnexionStep()
         connexionStep.setConnexion("admin@test.com", "Sogeti33")
-        connexionStep.checkMessage("Bienvenue ADMIN TEST")
+        connexionStep.checkMessage(" Bienvenue ADMIN TEST ")
     })
 })
 
