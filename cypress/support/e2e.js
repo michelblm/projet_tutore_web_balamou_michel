@@ -14,8 +14,11 @@
 // ***********************************************************
 
 // Import commands.js using ES2015 syntax:
-import "./commands";
+import './commands'
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
-require("@cypress/xpath");
+require('@cypress/grep')()
+require('@cypress/xpath')
+require('@faker-js/faker')
+import 'cypress-mochawesome-reporter/register';
