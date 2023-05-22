@@ -18,7 +18,7 @@ describe("TEST WEB OPEN CRUISE", () => {
   });
    
 
-  it("TEST02", () => {
+  it.only("TEST02", () => {
     const loginStep = new LoginStep();
     cy.log(`Se connecter Compte invalide`);
     loginStep.setLogin("XXXXXXX", "YYYYYY");
@@ -41,7 +41,7 @@ describe("TEST WEB OPEN CRUISE", () => {
       cy.wait(2000);
       const loginStep = new LoginStep();
       cy.log(`Se Connecter en tant que Admin`);
-      loginStep.setLogin("admin@test.com", "Sogeti33");
+      loginStep.setLogin(Cypress.env("username"),Cypress.env("password"));
       const stepGestionCompte = new StepGestionCompte();
       stepGestionCompte.ActiveCompte(data);
       cy.xpath(`//tr[contains(.,'${data.username}')]`).screenshot();
@@ -64,7 +64,7 @@ describe("TEST WEB OPEN CRUISE", () => {
       cy.wait(2000);
       const loginStep = new LoginStep();
       cy.log(`Se Connecter en tant que Admin`);
-      loginStep.setLogin("admin@test.com", "Sogeti33");
+      loginStep.setLogin(Cypress.env("username"),Cypress.env("password"));
       const stepGestionCompte = new StepGestionCompte();
       stepGestionCompte.ActiveCompte(data);
       cy.xpath(`//tr[contains(.,'${data.username}')]`).screenshot();
