@@ -1,7 +1,7 @@
 {
   "name": "tp_cypress",
   "version": "1.0.0",
-  "description": "Revision cypress Michel, Abdel et Ronaldo",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "cypress run",
