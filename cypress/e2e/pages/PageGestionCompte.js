@@ -1,7 +1,6 @@
 const LOCATOR_BUTTON_CONFIG =        '//*[@id="adminConfig"]'
 const LOCATOR_BUTTON_USER = '//a[@routerlink="/admin/utilisateur"]'
 const LOCATOR_BUTTON_USER_LIST = '//a[@routerlink="/admin/userList"]'
-const LOCATOR_BUTTON_ACTIVATE_COMPTE = '//tr[contains(.,${data.username})]//*[contains(text(), "Approuver")]'
 
 
 class PageGestionCompte{

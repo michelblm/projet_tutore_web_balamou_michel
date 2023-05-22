@@ -23,9 +23,6 @@ TEST TYPE : Test case Positive / Test case Negative / Scenario E2E
 | CYPRESS-005  | Création de compte           | Formulaire avec ID Particulier valide | Test positif | house    | Aucun compte particulier<br />Avec les mêmes ID     | Compte crée avec succès<br />Rédirection vers la page connexion                                     |
 | CYPRESS-006  | Création de compte           | Formulaire avec ID Prof valide       | Test positif | left     | Aucun compte prof<br />Avec les mêmes ID            | Compte crée avec succès<br />Rédirection vers la page connexion                                     |
 | CYPRESS-007  | Création de compte           | Formulaire avec ID existant           | Test negatif | star     | Compte existant<br />Avec les mêmes ID              | Message d'erreur<br />"l'email est déjà utilisé. Essayez un autre email"                            |
-|              |                               |                                       |              |          |                                                      |                                                                                                        |
-|              |                               |                                       |              |          |                                                      |                                                                                                        |
-|              |                               |                                       |              |          |                                                      |                                                                                                        |
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}

@@ -1,7 +1,7 @@
 {
   "name": "projet_tutore_web_balamou_michel",
   "version": "1.0.0",
-  "description": "",
+  "description": "**2 sujets sont proposés**",
   "main": "index.js",
   "scripts": {
     "test": "cypress run",
@@ -13,7 +13,6 @@
     "openby:chrome": "cypress run --e2e --browser chrome",
     "openby:firefox": "cypress run --e2e --browser firefox",
     "openby:electron": "cypress run --e2e --browser electron"
-   
   },
   "author": "",
   "license": "ISC",
@@ -25,7 +24,8 @@
   "dependencies": {
     "@cypress/xpath": "^2.0.3",
     "@faker-js/faker": "^8.0.1",
-    "cypress-wait-until": "^1.7.2"
+    "cypress-wait-until": "^1.7.2",
+    "mochawesome-report-generator": "^6.2.0"
   },
   "keywords": [],
   "directories": {

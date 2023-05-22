@@ -1,8 +1,8 @@
 {
   "type": "1",
-  "username": "terrance.bins@utter-xylophone.com",
-  "prenom": "Terrance",
-  "nom": "Bins",
+  "username": "arch.huel@empty-superiority.org",
+  "prenom": "Arch",
+  "nom": "Huel",
   "password": "Formation33",
   "confirmPassword": "Formation33",
   "adresse": "1",
@@ -13,7 +13,7 @@
   "cin": "123456789",
   "dateNaissance": "2000-08-10",
   "tel": "0605040302",
-  "nomConjoint": "Bergnaum",
-  "prenomConjoint": "Huels",
+  "nomConjoint": "Schaden-Pagac",
+  "prenomConjoint": "Jakubowski-Rippin",
   "dateNaissanceConjoint": "2000-08-10"
 }
