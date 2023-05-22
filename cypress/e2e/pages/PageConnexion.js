@@ -6,7 +6,7 @@ const locatorButtonMenu = '//button[@id="dropdownMenu2"]';
 const locatorButtonLogoff = '//button[text()="Se déconnecter"]';
 const locatorAlertDialog = '//div[@role="alertdialog"]';
 
-class LoginPage {
+class PageConnexion {
   setLanguage(text) {
     return cy.xpath(locatorSelectLang).select(text);
   }
@@ -32,18 +32,18 @@ class LoginPage {
     return cy.xpath(locatorAlertDialog).should("not.exist");
   }
 
-  logOff() {
+  logOut() {
     return cy.xpath(locatorButtonMenu).click()
   }
 
 
-  logOff1() {
+  logOut1() {
     return cy.xpath(locatorButtonLogoff).click();
   }
 
-  logOff2() {
+  logOut2() {
     return cy.xpath(locatorSelectLang).should("exist");
   }
 }
-export default LoginPage;
+export default PageConnexion;
 require('@cypress/xpath')

@@ -23,7 +23,7 @@ const locatorInputSiret = '//input[@formcontrolname="siret"]';
 const locatorSelectNombreSalarie = '//select[@formcontrolname="nombreSalarie"]';
 const locatorButtonValider = '//button[@class="btn btn-primary"]';
 
-class PageSouscription {
+class PageInscription {
   clickRegister() {
     return cy.xpath(locatorLinkRegister).click();
   }
@@ -122,4 +122,4 @@ class PageSouscription {
   }
 }
 
-export default PageSouscription;
+export default PageInscription;

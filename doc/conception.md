@@ -4,7 +4,9 @@
 
 ## Conception des cas de tests
 
-* FAuthentificationonctionannalité à tester : Authentification
+* Fonctionnalié à tester : Authentification
+
+
   * Connexion sur le site sur Open Cruise
   * Création de compte particulier et professionnel sur le site Open Cruise
 
