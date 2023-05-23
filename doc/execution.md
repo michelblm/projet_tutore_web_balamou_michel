@@ -4,7 +4,7 @@
 
 Ce fichier resume l'ensemble de l'exécution des tests avec leurs identifiants et descriptions correspondantes, les résultats de tests (succès/echec) avec les messages associés et les captures d'ecran pour certains cas de tests pertinents.
 
-Les exécutions sont effectuées dans le dossier tests qui contient le fichier *OpenCruise.cy.js* qui regroupent l'ensemble des codes qui importent les modules necessaires à partir des fichiers spécifiés. 
+Les exécutions sont effectuées dans le dossier tests qui contient le fichier *OpenCruise.cy.js* qui regroupent l'ensemble des codes qui importent les modules necessaires à partir des fichiers spécifiés.
 
 Voici quelques détails importants sur le code :
 
@@ -27,3 +27,10 @@ Le tableau ci dessous reperesente la synthèse des tests exécutés
 | Connexion compte professionnel    | Env-OK               | Test Positif  | Bienvenue PrenomProfessionnel NomProfessionnel                                                        | Bienvenue PrenomProfessionnel NomProfessionnel                                                        | Pass   |
 | Connexion avec un compte existant | Env-OK               | Test négatif | Message d'erreur<br />"l'email est déjà utilisé. Essayez un autre email"                            | Message d'erreur<br />"l'email est déjà utilisé. Essayez un autre email"                            | Fail   |
 | Connexion compte Admin            | Env-KO               | Test négatif | Mot de passe ou identifiant invalide                                                                   | Mot de passe ou identifiant invalide                                                                   | Fail   |
+
+
+Le rapport d'exécution généré par Cypress sur l'environnement est decrit ci-dessous
+
+![1684840430778](image/execution/1684840430778.png)
+
+Dans le cadre des cas d'anomalies trouvées, je n'ai pas pu me connecter sur l'environnement KO pour exécuter les tests.
