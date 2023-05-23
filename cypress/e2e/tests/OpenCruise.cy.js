@@ -8,7 +8,7 @@ describe("TEST WEB OPEN CRUISE", () => {
   beforeEach(() => {
     cy.visit(Cypress.env('url'));
   });
-  it("TEST01 **** Se Connecter Compte Valide ****",{ tags: '@smoke' }, () => {
+  it("CYPRESS-001 **** Connexion avec un compte valide ****",{ tags: '@smoke' }, () => {
     
     const stepConnexion = new StepConnexion();
     cy.log(`Se Connecter Compte Valide`);
@@ -18,7 +18,7 @@ describe("TEST WEB OPEN CRUISE", () => {
   });
    
 
-  it("TEST02", () => {
+  it("CYPRESS-002 **** Connexion avec un compte invalide ****",{ tags: '@light' }, () => {
     const stepConnexion = new StepConnexion();
     cy.log(`Se connecter Compte invalide`);
     stepConnexion.setLogin("XXXXXXX", "YYYYYY");
@@ -27,7 +27,7 @@ describe("TEST WEB OPEN CRUISE", () => {
     cy.xpath('//div[@role="alertdialog"]').screenshot();
   });
 
-  it("TEST03", () => {
+  it("CYPRESS-003 **** Création de compte particulier ****",{ tags: '@center' }, () => {
     const stepInscription = new StepInscription();
     cy.log("**********   Inscription Compte Particulier    ************");
     cy.fixture("data-part.json", "utf8").as("users");
@@ -54,7 +54,7 @@ describe("TEST WEB OPEN CRUISE", () => {
       stepConnexion.Logout();
     });
   });
-  it("TEST04", () => {
+  it("CYPRESS-004 **** Création de compte professionnel ****",{ tags: '@left' }, () => {
     const stepInscription = new StepInscription();
     cy.log("**********   Inscription Compte Professionnel    ************");
     cy.fixture("data-pro.json", "utf8").as("users");
@@ -78,7 +78,7 @@ describe("TEST WEB OPEN CRUISE", () => {
       
     });
   });
-  it("TEST05", () => {
+  it("CYPRESS-005 **** Création de compte avec email existant ****",{ tags: '@star' }, () => {
     const stepInscription = new StepInscription();
     cy.log("**********   Inscription Compte Particulier Avec Compte Existant    ************");
     cy.fixture("userPart.json", "utf8").as("users");
